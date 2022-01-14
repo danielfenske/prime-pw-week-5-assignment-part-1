@@ -19,6 +19,8 @@ const me = {
 
 console.log('A little about me:', me);
 
+
+
 /* 2. Accessing object properties.
   - Create a variable called fullName
   - Use the firstName & lastName properties of the object you
@@ -26,6 +28,9 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
+let fullName = `${me.firstName} ${me.lastName}`;
+
+console.log(`My full name is ${fullName}.`);
 
 
 /* 3. Nested arrays
