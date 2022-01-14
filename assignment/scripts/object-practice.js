@@ -30,13 +30,17 @@ console.log('A little about me:', me);
 
 let fullName = `${me.firstName} ${me.lastName}`;
 
-console.log(`My full name is ${fullName}.`);
+console.log(`My full name is ${fullName}.`); //Statement output: My full name is Daniel Fenske.
+
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
+
+console.log(`My first favorite food is ${me.favThreeFoods[0]}.`); //Statement output: My first favorite food is Chicken.
+console.log(`My last favorite food is ${me.favThreeFoods[2]}.`); //Statement output: My last favorite food is Jalapeño Chips.
 
 
 
