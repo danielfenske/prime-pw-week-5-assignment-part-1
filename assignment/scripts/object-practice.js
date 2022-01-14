@@ -8,6 +8,7 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
+
 const me = {
   // TODO - add properties here
   firstName: 'Daniel',
@@ -28,7 +29,7 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-let fullName = `${me.firstName} ${me.lastName}`;
+let fullName = `${me.firstName} ${me.lastName}`; //combines first name and last name properties within object 'me'
 
 console.log(`My full name is ${fullName}.`); //Statement output: My full name is Daniel Fenske.
 
@@ -53,7 +54,8 @@ console.log(`My last favorite food is ${me.favThreeFoods[2]}.`); //Statement out
 
 console.log(`My current shoe count is: ${me.shoeCount}.`); //Statement output: My current shoe count is: 18.
 
-me.shoeCount = me.shoeCount + 1;
+me.shoeCount = me.shoeCount + 1; // Adds an extra shoe to shoe count
+// me.shoeCount = 19; TEST: this also works
 
 console.log(`My current shoe count is: ${me.shoeCount}.`); //Statement output: My current shoe count is: 19.
 
@@ -65,3 +67,8 @@ console.log(`My current shoe count is: ${me.shoeCount}.`); //Statement output: M
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'red'; // Added a 'favoriteColor' property to object 'me'
+
+console.log('My favorite color is', me.favoriteColor + '.'); // Statement output: 'red'
+console.log('Who am I?', me); // // Test to see if favoriteColor was added to object 'me'. Statement output: Who am I? {firstName: 'Daniel', lastName: 'Fenske', hasSiblings: true, shoeCount: 19, favThreeFoods: Array(3), …}
