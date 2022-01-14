@@ -18,7 +18,7 @@ const me = {
   favThreeFoods: ['Chicken', 'Gummyworms', 'Jalapeño Chips'],
 }; // end me
 
-console.log('A little about me:', me);
+console.log('A little about me:', me); // Statement output: A little about me: {firstName: 'Daniel', lastName: 'Fenske', hasSiblings: true, shoeCount: 18, favThreeFoods: Array(3)}
 
 
 
@@ -29,9 +29,9 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-let fullName = `${me.firstName} ${me.lastName}`; //combines first name and last name properties within object 'me'
+let fullName = `${me.firstName} ${me.lastName}`; // Combines first name and last name properties within object 'me'
 
-console.log(`My full name is ${fullName}.`); //Statement output: My full name is Daniel Fenske.
+console.log(`My full name is ${fullName}.`); // Statement output: My full name is Daniel Fenske.
 
 
 
